@@ -1,0 +1,229 @@
+body{
+    background-color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#logo1{
+    margin-left: 0;
+    left: 0;
+}
+
+header{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 30px;
+    position: fixed;
+    width: 100%;
+    color: black;
+    background-color: white; 
+}
+.degh{
+    margin-top: 40px;
+    height: 4px;
+    /* background-image: linear-gradient(to right,yellow,purple); */
+    position: fixed;
+    width: 100%;
+    animation:colores 3s linear infinite alternate both;
+}
+
+@keyframes colores{
+    0%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: purple;
+    }
+}
+
+@keyframes colores2{
+    0%{
+        background-color: purple;
+    }
+
+    100%{
+        background-color:yellow;
+    }
+}
+
+@keyframes inicio{
+    0%{
+            transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(350deg);
+
+    }
+}
+
+
+.degf{
+    height: 4px;
+    /* background-image: linear-gradient(to right,purple,yellow); */
+    animation:colores 3s linear infinite alternate both;
+}
+
+#menu{
+    background-color: white;
+}
+
+#logo{
+    width: 100px;
+    height: 35px;
+    margin: 0;
+    float: left;
+}
+table{
+    color: white;
+}
+ul li a{
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+
+}
+
+ul li:hover{
+    background-color: yellow;
+}
+ul li a:hover{
+    color: purple;
+}
+
+/*#portada1 video{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+}*/
+
+
+#portada1{
+    background-color: black;
+}
+#portada2{
+    background-image: url("img/fondo2.jpg");
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 90vh;
+}
+
+#texthome{
+    margin-top:15%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-size: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: oblique;
+    right: 3.2%;
+    padding-right:2px;
+    padding-top:1px;
+    animation: inicio 2s infinite alternate;
+}
+
+#texthome #p2{
+    background-color: white;
+    color: black;
+}
+#btnhome{
+    margin-top:25%;
+    position: absolute;
+    right: 3%;
+    background-color: yellow;
+    color: black;
+    border-color: purple;
+}
+
+#btnhome:hover{
+    background-color: purple;
+    color: white;
+    border-color: yellow;
+}
+
+footer{
+    padding-top:20px ;
+    background-color:black;
+    color: white;
+    height: auto;
+}
+.logos{
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+
+}
+.seccion2{
+    margin: 0;
+}
+
+ .seccion2 .contenedor1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 300px;
+}
+.seccion2 .contenedor2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 300px;
+} 
+#aContenedor{
+    margin-top: 42px;
+    background-color:yellow;
+    color: black;
+}
+#bContenedor{
+    margin-top: 42px;
+    background-color: black;
+    color: white;
+}
+#cContenedor{
+    background-color: black;
+    color: white;
+}
+#dContenedor{
+    background-color: purple;
+}
+.seccion3{
+    margin-top: 0%;
+    background-color: black;
+}
+
+.seccion4 .contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90vh;
+}
+.seccion4 .contenedor div{
+    margin-top: 40px;
+}
+
+#titulo{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    background-color: yellow;
+}
+#eContenedor{
+    background-color: purple;
+}
+#formulario1{
+    height: 98%;
+}
+#formulario2{
+    margin-top: 40px;
+    background-color: yellow;
+    color: white;
+    height: 95%;
+}
+.seccion5{
+    background-color: black;
+}
+.seccion5 .contenedor {
+display: grid;
+grid-template-columns: 50% 50%;
+grid-row: 90vh;
+}
