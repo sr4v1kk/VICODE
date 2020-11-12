@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info i {
-  color: #cc1616;
+  color: yellow;
   padding-right: 4px;
 }
 
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(52, 58, 64, 0.2);
+  background: rgb(255, 255, 255);
   transition: all 0.5s;
   z-index: 997;
   top: 40px;
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   top: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: white;
 }
 
 #header .logo {
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: black;
 }
 
 #header .logo img {
@@ -231,14 +231,18 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color:black;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
 
-.nav-menu > ul > li:hover, .nav-menu .active {
-  background: #cc1616;
+.nav-menu ul li a:hover {
+    color: yellow;
+}
+
+.nav-menu > ul > li:hover{
+  background: purple;
 }
 
 .nav-menu .drop-down ul {
@@ -275,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #e82d2d;
+  color: yellow;
 }
 
 .nav-menu .drop-down > a:after {
@@ -370,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #e82d2d;
+  color: purple;
   text-decoration: none;
 }
 
@@ -406,7 +410,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(0, 0, 0, 0.6);
+  background: white;
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -431,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/portada.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -479,8 +483,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  background: yellow;
+  border-color: rgb(255, 240, 37);
 }
 
 @media (min-width: 1024px) {
@@ -677,7 +681,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #cc1616;
+  background: yellow;
   transition: all .3s ease-out 0s;
   display: flex;
   align-items: center;
@@ -720,8 +724,8 @@ section {
 }
 
 .services .icon-box:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  background: purple;
+  border-color: purple;
   padding: 70px 20px 90px 20px;
 }
 
@@ -730,7 +734,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #cc1616;
+  color:purple;
 }
 
 .services .icon-box:hover .icon::before {

@@ -171,22 +171,38 @@ footer{
     grid-template-columns: 40% 60%;
     grid-template-rows: 300px;
 } 
+.seccion2 h1{
+    color: yellow;
+
+}
+.seccion2 h2{
+    color:purple;
+}
 #aContenedor{
     margin-top: 42px;
     background-color:yellow;
     color: black;
+    font-size: 20px ;
+    padding-left: 15px;
 }
 #bContenedor{
     margin-top: 42px;
     background-color: black;
     color: white;
+    font-size: 20px ;
+    padding-left: 15px;
 }
 #cContenedor{
     background-color: black;
     color: white;
+    font-size: 20px ;
+    padding-left: 15px;
 }
 #dContenedor{
+    color:black;
     background-color: purple;
+    font-size: 20px ;
+    padding-left: 15px;
 }
 .seccion3{
     margin-top: 0%;
